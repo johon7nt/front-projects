@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header class="encabezado">
+        <section class="sección1">
+            <h4>20% de descuento en todos los productos</h4>
+        </section>
+
+        <section class="sección2">
+            <img src="/img/pc.png" alt="pc">
+            <h1 class="tiendaNombre">Nombre Tienda</h1>
+        </section>
+
+        <section class="sección3">
+            <nav>Contacto</nav>
+            <nav>Registrarme</nav>
+            <nav>Ingresar</nav>
+        </section>
+    </header>
+
+    <main class="maincontainer">
+
+        <header class="titleContainer">
+            <h1>Añadí tu super!</h1>
+
+            <h3>Agregá tu personaje favorito completando las opciones.</h3>
+        </header>
+
+        <section class="firstPart">
+            <label for="nombre">*Nombre</label>
+            <input type="text" name="datosNombre" id="nombre">
+
+            <label for="calendario">Fecha</label>
+            <input type="date" name="datosFecha">
+
+            <textarea name="datosComentario" id="comentario" cols="30" rows="10" maxlength="240"  placeholder="Descripción"></textarea>
+        </section>
+
+        <section class="secondPart">
+            <label for="Especie">*Especie</label>
+            <select name="Especie" id="datosEspecie">
+                <option value="1">Humano</option>
+                <option value="2">Namekusei</option>
+                <option value="3">Saiyajin</option>
+            </select>
+
+            <label for="Foto">Agregar Foto</label>
+            <input type="file" name="fotoDePerfil" accept=".jpg" id="Foto" multiple>
+
+            <Label for="Poder">Poderes</Label>
+
+            <label for="Volar">Volar</label>
+            <input type="checkbox" name="Poder" value="puedeVolar">
+
+            <label for="Superinteligencia">Superinteligencia</label>
+            <input type="checkbox" name="Poder" value="esUnGenio">
+
+            <label for="VistaDeRayoLáser">Vista de rayo láser</label>
+            <input type="checkbox" name="Poder" value="tieneRayosLaser">
+
+            <label for="BilleteraGorda">Billetera gorda</label>
+            <input type="checkbox" name="Poder" value="esMillonario">
+
+            <label for="TipoDePersonaje">Tipo de personaje</label>
+
+            <label for="Héroe / Heroina">Héroe / Heroina</label>
+            <input type="radio" name="medio" value="esDeLosBuenos">
+
+            <label for="Villano / Villana">Villano / Villana</label>
+            <input type="radio" name="medio" value="esDeLosMalos">
+        </section>
+
+    </main>
+    <footer>
+        <section>
+            <h4>Todos los derechos reservados a FRONT END 1</h4>
+        </section>
+    </footer>
+
+</body>
+</html>
